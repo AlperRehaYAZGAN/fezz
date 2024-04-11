@@ -1,0 +1,9 @@
+POST http://localhost:7071/rpc
+Content-Type: application/json
+
+{
+  "jsonrpc": "2.0",
+  "method": "hello_world.so",
+  "params": [],
+  "id": 1
+}

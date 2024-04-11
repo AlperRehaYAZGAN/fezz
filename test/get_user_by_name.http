@@ -1,0 +1,13 @@
+POST http://localhost:7071/rpc
+Content-Type: application/json
+
+{
+  "jsonrpc": "2.0",
+  "method": "get_user_by_name.so",
+  "params": [
+    {
+        "name": "john"
+    }
+  ],
+  "id": 1
+}
