@@ -49,7 +49,7 @@ Content-Type: application/json
 
 {
   "jsonrpc": "2.0",
-  "method": "hello_world.so",
+  "method": "get_user_by_name.so",
   "params": [
     {
         "name": "john"
